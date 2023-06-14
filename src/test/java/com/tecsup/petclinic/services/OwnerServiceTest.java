@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Slf4j
 public class OwnerServiceTest {
 	
+<<<<<<< Upstream, based on branch 'main' of https://github.com/Fendo5242/Lab13
 	@GetMapping("/owners/{id}")
 	ResponseEntity<Owner> findOne(@PathVariable Long id){
 		try {
@@ -22,4 +23,6 @@ public class OwnerServiceTest {
 		}
 	}
 	
+=======
+>>>>>>> 0688148 Sanchez Berru Fernando Jose
 }
